@@ -2164,6 +2164,92 @@
     unbzip2-stream "1.4.3"
     yargs "17.7.2"
 
+"@react-pdf/fns@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master":
+  version "3.1.2"
+  uid "6a0813dfbfd368290c905a5057b9389c653fbabc"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master#6a0813dfbfd368290c905a5057b9389c653fbabc"
+
+"@react-pdf/font@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/font?master":
+  version "4.0.2"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/font?master#3e5937e7f455fb361b91a99d0dacf4fe8fce5059"
+  dependencies:
+    "@react-pdf/pdfkit" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/pdfkit?master"
+    "@react-pdf/types" "^2.9.0"
+    fontkit "^2.0.2"
+    is-url "^1.2.4"
+
+"@react-pdf/layout@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/layout?master":
+  version "4.4.0"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/layout?master#547ab2de58f72febdb6b95d7fa6fc528769ddf7d"
+  dependencies:
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    "@react-pdf/image" "^3.0.3"
+    "@react-pdf/primitives" "^4.1.1"
+    "@react-pdf/stylesheet" "^6.1.0"
+    "@react-pdf/textkit" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master"
+    "@react-pdf/types" "^2.9.0"
+    emoji-regex "^10.3.0"
+    queue "^6.0.1"
+    yoga-layout "^3.2.1"
+
+"@react-pdf/pdfkit@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/pdfkit?master":
+  version "4.0.3"
+  uid eb4ad60623a25ada104c15aa119f0bc091170456
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/pdfkit?master#eb4ad60623a25ada104c15aa119f0bc091170456"
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@react-pdf/png-js" "^3.0.0"
+    browserify-zlib "^0.2.0"
+    crypto-js "^4.2.0"
+    fontkit "^2.0.2"
+    jay-peg "^1.1.1"
+    linebreak "^1.1.0"
+    vite-compatible-readable-stream "^3.6.1"
+
+"@react-pdf/primitives@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master":
+  version "4.1.1"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master#479b8b31dce59c78b84ae329595cf49a1b1bd4ea"
+
+"@react-pdf/reconciler@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/reconciler?master":
+  version "1.1.4"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/reconciler?master#ead942d28158b3b7f98c559db858245c5c428d3c"
+  dependencies:
+    object-assign "^4.1.1"
+    scheduler "0.25.0-rc-603e6108-20241029"
+
+"@react-pdf/render@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/render?master":
+  version "4.3.0"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/render?master#5b170990de7af4672135e4a1e81ee0cc2af40d90"
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    "@react-pdf/primitives" "^4.1.1"
+    "@react-pdf/textkit" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master"
+    "@react-pdf/types" "^2.9.0"
+    abs-svg-path "^0.1.1"
+    color-string "^1.9.1"
+    normalize-svg-path "^1.1.0"
+    parse-svg-path "^0.1.2"
+    svg-arc-to-cubic-bezier "^3.2.0"
+
+"@react-pdf/textkit@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master":
+  version "6.0.0"
+  uid "2611424e10ab69af3817eba90c5aadb2870fbfe8"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master#2611424e10ab69af3817eba90c5aadb2870fbfe8"
+  dependencies:
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    bidi-js "^1.0.2"
+    hyphen "^1.6.4"
+    unicode-properties "^1.4.1"
+
+"@react-pdf/types@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master":
+  version "2.9.0"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master#66a08dc8e62c246bd5f493939665fd3dc2a7ac04"
+  dependencies:
+    "@react-pdf/font" "^4.0.2"
+    "@react-pdf/primitives" "^4.1.1"
+    "@react-pdf/stylesheet" "^6.1.0"
+
 "@rollup/plugin-alias@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-alias/-/plugin-alias-5.1.0.tgz#99a94accc4ff9a3483be5baeedd5d7da3b597e93"
