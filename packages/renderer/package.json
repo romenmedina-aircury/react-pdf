@@ -24,10 +24,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "@react-pdf/fns": "3.1.2",
+    "@react-pdf/fns": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master",
     "@react-pdf/font": "^4.0.2",
     "@react-pdf/layout": "^4.4.0",
-    "@react-pdf/pdfkit": "^4.0.3",
+    "@react-pdf/pdfkit": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/pdfkit?master",
     "@react-pdf/primitives": "^4.1.1",
     "@react-pdf/reconciler": "^1.1.4",
     "@react-pdf/render": "^4.3.0",

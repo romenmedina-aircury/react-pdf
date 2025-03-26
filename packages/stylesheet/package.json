@@ -20,7 +20,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@react-pdf/fns": "3.1.2",
+    "@react-pdf/fns": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master",
     "@react-pdf/types": "^2.9.0",
     "color-string": "^1.9.1",
     "hsl-to-hex": "^1.0.0",

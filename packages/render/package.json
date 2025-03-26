@@ -20,9 +20,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "@react-pdf/fns": "3.1.2",
+    "@react-pdf/fns": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master",
     "@react-pdf/primitives": "^4.1.1",
-    "@react-pdf/textkit": "^6.0.0",
+    "@react-pdf/textkit": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master",
     "@react-pdf/types": "^2.9.0",
     "abs-svg-path": "^0.1.1",
     "color-string": "^1.9.1",
