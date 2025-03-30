@@ -21,11 +21,11 @@
   },
   "dependencies": {
     "@react-pdf/fns": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master",
-    "@react-pdf/image": "^3.0.3",
-    "@react-pdf/primitives": "^4.1.1",
-    "@react-pdf/stylesheet": "^6.1.0",
+    "@react-pdf/image": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/image?master",
+    "@react-pdf/primitives": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master",
+    "@react-pdf/stylesheet": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/stylesheet?master",
     "@react-pdf/textkit": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master",
-    "@react-pdf/types": "^2.9.0",
+    "@react-pdf/types": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master",
     "emoji-regex": "^10.3.0",
     "queue": "^6.0.1",
     "yoga-layout": "^3.2.1"

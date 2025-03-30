@@ -6,18 +6,27 @@ import {
   PDFViewer,
   PDFDownloadLink,
   Text,
+  Font,
 } from '@react-pdf/renderer';
 
 export default function Home() {
+  Font.register({
+    family: 'Roboto, serif',
+    fonts: [
+      { src: 'https://fonts.cdnfonts.com/s/93317/NotoSansMath-Regular.woff' },
+    ],
+  });
+
   const doc = (
     <Document>
       <Page
         style={{
+          fontFamily: 'Roboto, serif',
           padding: 40,
           paddingTop: 32,
         }}
       >
-        <Text>Hello world from client</Text>
+        <Text> 𝑥</Text>
       </Page>
     </Document>
   );

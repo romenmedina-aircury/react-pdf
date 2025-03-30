@@ -12,8 +12,8 @@
     "directory": "packages/types"
   },
   "dependencies": {
-    "@react-pdf/font": "^4.0.2",
-    "@react-pdf/primitives": "^4.1.1",
-    "@react-pdf/stylesheet": "^6.1.0"
+    "@react-pdf/font": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/font?master",
+    "@react-pdf/primitives": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master",
+    "@react-pdf/stylesheet": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/stylesheet?master"
   }
 }

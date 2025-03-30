@@ -21,9 +21,9 @@
   "dependencies": {
     "@babel/runtime": "^7.20.13",
     "@react-pdf/fns": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master",
-    "@react-pdf/primitives": "^4.1.1",
+    "@react-pdf/primitives": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master",
     "@react-pdf/textkit": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master",
-    "@react-pdf/types": "^2.9.0",
+    "@react-pdf/types": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master",
     "abs-svg-path": "^0.1.1",
     "color-string": "^1.9.1",
     "normalize-svg-path": "^1.1.0",
@@ -31,7 +31,7 @@
     "svg-arc-to-cubic-bezier": "^3.2.0"
   },
   "devDependencies": {
-    "@react-pdf/layout": "^4.4.0",
+    "@react-pdf/layout": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/layout?master",
     "@types/abs-svg-path": "^0.1.3",
     "@types/color-string": "^1.5.5",
     "@types/pdfkit": "^0.13.9"

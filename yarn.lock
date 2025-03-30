@@ -2178,6 +2178,13 @@
     fontkit "^2.0.2"
     is-url "^1.2.4"
 
+"@react-pdf/image@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/image?master":
+  version "3.0.3"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/image?master#828e24a6c52dc8922c1e9b9471d148843b524b41"
+  dependencies:
+    "@react-pdf/png-js" "^3.0.0"
+    jay-peg "^1.1.1"
+
 "@react-pdf/layout@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/layout?master":
   version "4.4.0"
   resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/layout?master#547ab2de58f72febdb6b95d7fa6fc528769ddf7d"
@@ -2206,6 +2213,13 @@
     linebreak "^1.1.0"
     vite-compatible-readable-stream "^3.6.1"
 
+"@react-pdf/png-js@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/png-js?master":
+  version "3.0.0"
+  uid "9974818a8bd943c25bc342cceaf3029efac5ade1"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/png-js?master#9974818a8bd943c25bc342cceaf3029efac5ade1"
+  dependencies:
+    browserify-zlib "^0.2.0"
+
 "@react-pdf/primitives@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master":
   version "4.1.1"
   resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/primitives?master#479b8b31dce59c78b84ae329595cf49a1b1bd4ea"
@@ -2231,6 +2245,18 @@
     normalize-svg-path "^1.1.0"
     parse-svg-path "^0.1.2"
     svg-arc-to-cubic-bezier "^3.2.0"
+
+"@react-pdf/stylesheet@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/stylesheet?master":
+  version "6.1.0"
+  uid "4f83b1ca19aa6eef8fcfe242ac886342cabc04e0"
+  resolved "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/stylesheet?master#4f83b1ca19aa6eef8fcfe242ac886342cabc04e0"
+  dependencies:
+    "@react-pdf/fns" "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/fns?master"
+    "@react-pdf/types" "^2.9.0"
+    color-string "^1.9.1"
+    hsl-to-hex "^1.0.0"
+    media-engine "^1.0.3"
+    postcss-value-parser "^4.1.0"
 
 "@react-pdf/textkit@https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/textkit?master":
   version "6.0.0"

@@ -206,6 +206,8 @@ class AFMFont {
   }
 
   encodeText(text) {
+    console.log({text})
+
     const res = [];
     let i = 0;
 
@@ -221,6 +223,7 @@ class AFMFont {
   }
 
   glyphsForString(string) {
+    console.log({string})
     const glyphs = [];
     let i = 0;
 

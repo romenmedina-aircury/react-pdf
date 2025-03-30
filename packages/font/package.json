@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@react-pdf/pdfkit": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/pdfkit?master",
-    "@react-pdf/types": "^2.9.0",
+    "@react-pdf/types": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/types?master",
     "fontkit": "^2.0.2",
     "is-url": "^1.2.4"
   },

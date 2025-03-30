@@ -35,6 +35,8 @@ const fontSubstitution =
 
     const res: Run[] = [];
 
+    console.log({ string });
+
     for (let i = 0; i < runs.length; i += 1) {
       const run = runs[i];
 

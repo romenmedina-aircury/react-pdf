@@ -23,7 +23,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@react-pdf/png-js": "^3.0.0",
+    "@react-pdf/png-js": "https://gitpkg.vercel.app/romenmedina-aircury/react-pdf/packages/png-js?master",
     "jay-peg": "^1.1.1"
   },
   "files": [
